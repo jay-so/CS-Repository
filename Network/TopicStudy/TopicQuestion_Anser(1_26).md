@@ -122,7 +122,7 @@
 ##### Stop-And-Wait 재전송(ACK 확인 응답 기반 흐름 제어)
 - TCP 연결동안 매번 재전송한 패킷에 대한 확인 응답을 받아야만, 그 다음 패킷을 전송하는 기법
 
-![5.png](image%2F4-WayHandShake-%20%EB%B3%80%EA%B2%BD%20%EC%A0%84%2F5.png)
+![5.png](image%2FTopicQuestion%2F01_26%2F5.png)
 
 <br/>
 
@@ -228,7 +228,7 @@ ex) 좌: 원본, 우: 조금 수정
 #### Stop-And Wait 재전송 방식
 - TCP 연결동안 매번 재전송한 패킷에 대한 확인 응답을 받아야만, 그 다음 패킷을 전송하는 방법
 
-![5.png](image%2F4-WayHandShake-%20%EB%B3%80%EA%B2%BD%20%EC%A0%84%2F5.png)
+![5.png](image%2FTopicQuestion%2F01_26%2F5.png)
 
 <br/>
 
