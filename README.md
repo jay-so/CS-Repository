@@ -4,31 +4,16 @@
 
 - 면접을 대비하기 위한 CS 스터디 입니다!
 - 해당 CS 스터디의 개인 정리 레포지입니다.
-
 <br/>
 
 ## 📚 스터디 일시
 
 ---
 
-- 매주 금요일 오후 5시 ~ 오후 7시
+- 매주 화요일 오후 2시 ~ 오후 4시
 - 오프라인
 - 스터디 인원: 3명
 - 👉🏻 노션 링크: [CS 스터디](https://stormy-cardigan-61a.notion.site/CS-54efe9100fa74e0d9de9a6bc7e627959?pvs=4)
-
-
-<table>
-  <tr>
-    <td align="center"><b>소재훈</b></td>
-    <td align="center"><b>조화진</b></td>
-    <td align="center"><b>문정환</b></td>
-  </tr>
- <tr>
-    <td align="center"><a href="https://github.com/jay-so"><img src="https://avatars.githubusercontent.com/jay-so" width="130px;" alt=""></a></td>
-    <td align="center"><img src="profile/조화진.png" width="130px;" alt=""></td>
-    <td align="center"><img src="profile/문정환.png" width="130px;" alt=""></td>
-  </tr>
-</table>
 
 <br/>
 
