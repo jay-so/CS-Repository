@@ -26,8 +26,8 @@
 
 <table>
 <tr>
-  <td><img src="./image/DHCP/1.png" width="100%" /></td>
-  <td><img src="./image/DHCP/2.png" width="100%" /></td>
+  <td><img src="image/DHCP/1.png" width="100%" /></td>
+  <td><img src="image/DHCP/2.png" width="100%" /></td>
 </tr>
 </table>
 
