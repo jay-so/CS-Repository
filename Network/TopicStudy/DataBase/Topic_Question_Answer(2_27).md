@@ -11,6 +11,7 @@ UNIQUE Key: 테이블은 여러 개의 UNIQUE Key를 가질 수 있습니다. UN
 <br/>
 </details>
 
+<br/>
 <details>
 <summary>2. 실시간 데이터 처리나 스트리밍 데이터 처리에는 RDB와 NoSQL 중 어떤 것이 더 적합하다고 생각하시나요?</summary>
 실시간 데이터 처리나 스트리밍 데이터 처리에는 일반적으로 NoSQL이 더 적합합니다. 이는 NoSQL 데이터베이스가 대량의 데이터를 빠르게 쓰고 읽는 데 더 효율적이기 때문입니다. 또한 NoSQL 데이터베이스는 확장성이 뛰어나서 데이터 양이 증가하더라도 처리 성능을 유지하는 데 유리합니다.
@@ -19,6 +20,7 @@ UNIQUE Key: 테이블은 여러 개의 UNIQUE Key를 가질 수 있습니다. UN
 <br/>
 </details>
 
+<br/>
 <details> 
 <summary>3. 트랜잭션 충돌이 발생했을 때 어떻게 처리하나요?</summary>
 트랜잭션 충돌, 즉 두 트랜잭션이 동시에 같은 데이터를 수정하려고 할 때 DBMS는 보통 락(lock) 메커니즘을 사용하여 이를 처리합니다. 락은 한 트랜잭션에서 사용 중인 데이터를 다른 트랜잭션에서 사용하지 못하도록 막습니다.
@@ -26,6 +28,9 @@ UNIQUE Key: 테이블은 여러 개의 UNIQUE Key를 가질 수 있습니다. UN
 또한, 충돌이 발생하면 DBMS는 보통 충돌을 일으킨 트랜잭션을 롤백(취소)하고, 해당 트랜잭션은 다시 시작하게 됩니다. 이런 방식으로 트랜잭션 충돌을 해결하며, 이를 통해 여러 트랜잭션을 동시에 안전하게 처리할 수 있습니다.
 <br/>
 </details>
+
+
+<br/>
 
 <details> 
 <summary>4. 트랜잭션 격리 레벨과 성능 간의 관계를 설명해주실 수 있나요?</summary>
@@ -37,6 +42,8 @@ UNIQUE Key: 테이블은 여러 개의 UNIQUE Key를 가질 수 있습니다. UN
 <br/>
 </details>
 
+<br/>
+
 <details> 
 <summary>5. 격리수준에 따라 발생할 수 있는 대표적인 현상중 더티리드, 팬텀리드, 논리피터블 리드 말고 다른 현상들이 있을까요?</summary>
 대표적인 현상 외에도 트랜잭션 격리 수준에 따라 "비반복 가능 읽기(Non-repeatable Read)" 현상이 발생할 수 있습니다.
@@ -46,12 +53,16 @@ UNIQUE Key: 테이블은 여러 개의 UNIQUE Key를 가질 수 있습니다. UN
 이 현상은 REPEATABLE READ 또는 SERIALIZABLE 격리 수준에서 방지됩니다.
 </details>
 
+<br/>
+
 <details>
 <summary>6. NoSql은 RDBMS와는 다르게 기본 격리수준이 read_uncommitted입니다 왜 그런걸까요?</summary>
 NoSQL 데이터베이스는 대량의 데이터를 빠르게 쓰고 읽는 데 초점을 맞추고 있으며, 이를 위해 일부 일관성 제약 조건을 완화합니다. 이러한 완화된 일관성 모델 중 하나가 바로 READ UNCOMMITTED 격리 수준입니다.
 <br/>
 READ UNCOMMITTED 격리 수준에서는 다른 트랜잭션에서 아직 커밋되지 않은 변경 사항을 읽을 수 있습니다. 이는 성능을 향상시키지만, 동시에 일관성 문제를 발생시킬 수 있습니다. 그러나 NoSQL 데이터베이스는 보통 이러한 일관성 문제를 애플리케이션 레벨에서 해결하도록 설계되어 있습니다.
 </details>
+
+<br/>
 
 <details>
 <summary>7. 한개의 트랜잭션 안에서 여러개의 트랜잭션이 있을경우, 트랜잭션 하나가 rollback이 일어나면 전체 트랜잭션은 어떻게 될까요?</summary>
@@ -61,6 +72,8 @@ READ UNCOMMITTED 격리 수준에서는 다른 트랜잭션에서 아직 커밋�
 <br/>
 이는 트랜잭션의 원자성(Atomicity) 원칙에 따른 것입니다.
 </details>
+
+<br/>
 
 <details> 
 <summary>8.RDBMS의 장점과 약점은 무엇인가요?</summary>
@@ -81,6 +94,8 @@ RDBMS의 약점:
 예를 들어, 텍스트, 이미지, 비디오 등의 비정형 데이터를 관리하는 데는 NoSQL과 같은 비관계형 데이터베이스가 더 효율적일 수 있습니다.
 </details>
 
+<br/>
+
 <details>
 <summary>9. DB 데드락이 무엇인지 설명해주세요</summary>
 데드락(Deadlock)이란 두 개 이상의 트랜잭션이 서로의 자원을 대기하는 상황을 말합니다.
@@ -89,6 +104,8 @@ RDBMS의 약점:
 <br/>
 따라서, 데드락은 데이터베이스 시스템의 성능을 저하시키는 주요 요인 중 하나입니다.
 </details>
+
+<br/>
 
 <details>
 <summary>10.DB 데드락을 해결할 수 있는 방법이 있나요?</summary>
